@@ -275,7 +275,7 @@
               "sourcePortRange": "*",
               "destinationAddressPrefix": "*"
             },
-            "name": "Port_7600",
+            "name": "Port_80",
             "properties": {
               "priority": 100,
               "access": "Allow",
@@ -288,7 +288,7 @@
             },
             "name": "Port_443",
             "properties": {
-              "priority": 11-,
+              "priority": 110,
               "access": "Allow",
               "direction": "Outbound",
               "destinationPortRange": "443",
