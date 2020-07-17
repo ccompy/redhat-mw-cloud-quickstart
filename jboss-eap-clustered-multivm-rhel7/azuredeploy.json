@@ -274,6 +274,28 @@
               "sourceAddressPrefix": "*",
               "sourcePortRange": "*",
               "destinationAddressPrefix": "*"
+            },
+            "name": "Port_7600",
+            "properties": {
+              "priority": 100,
+              "access": "Allow",
+              "direction": "Outbound",
+              "destinationPortRange": "80",
+              "protocol": "Tcp",
+              "sourceAddressPrefix": "*",
+              "sourcePortRange": "*",
+              "destinationAddressPrefix": "*"
+            },
+            "name": "Port_443",
+            "properties": {
+              "priority": 11-,
+              "access": "Allow",
+              "direction": "Outbound",
+              "destinationPortRange": "443",
+              "protocol": "Tcp",
+              "sourceAddressPrefix": "*",
+              "sourcePortRange": "*",
+              "destinationAddressPrefix": "*"
             }
           }
         ]
