@@ -223,7 +223,9 @@
               "access": "Allow",
               "priority": 1010,
               "direction": "Inbound"
-            },
+            }
+          },
+          {
             "name": "Port_80",
             "properties": {
               "priority": 100,
@@ -234,7 +236,9 @@
               "sourceAddressPrefix": "*",
               "sourcePortRange": "*",
               "destinationAddressPrefix": "*"
-            },
+            }
+          },
+          {
             "name": "Port_443",
             "properties": {
               "priority": 110,
